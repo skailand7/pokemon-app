@@ -1,10 +1,10 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public: '/',
-    src: '/_dist_',
+    public: "/",
+    src: "/_dist_",
   },
   buildOptions: {
-    baseUrl: '',
+    baseUrl: "https://skailand7.github.io/pokemon-app/",
   },
-}
+};
