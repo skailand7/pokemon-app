@@ -39,9 +39,11 @@ window
         .then((responseJson2) => {
           responseJson2.types.forEach((element) => {
             const type1 = document.createElement("span");
+            const background1 = document.querySelector(".card-container");
             switch (element.type.name) {
               case "normal":
                 type1.className = `${badge}red-yellow-100 bg-red-300 rounded`;
+
                 break;
               case "fighting":
                 type1.className = `${badge}text-red-100 bg-red-700 rounded`;
@@ -75,6 +77,8 @@ window
                 break;
               case "grass":
                 type1.className = `${badge}text-green-100 bg-green-700 rounded`;
+                contain.style =
+                  "background: url('https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/9/92/Type_Background_Grass.png/')";
                 break;
               case "electric":
                 type1.className = `${badge}text-yellow-100 bg-yellow-400 rounded`;
