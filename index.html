@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="https://skailand7.github.io/pokemon-app/favicon.ico" />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/640px-Pok%C3%A9_Ball_icon.svg.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
@@ -20,42 +23,39 @@
       type="text/css"
       href="https://skailand7.github.io/pokemon-app/_dist_/index.css"
     />
-    <title>Snowpack & Tailwind App</title>
+    <title>Pokemon API Consume</title>
   </head>
   <body>
+    <nav>
+      <div class="navbar-left">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png"
+          alt="Pokemon-logo"
+          class="poke-logo"
+        />
+        <ul>
+          <li><a href="">Pokedex</a></li>
+          <li><a href="">Regiones</a></li>
+          <li><a href="">Evoluciones</a></li>
+          <li><a href="">Pokeballs</a></li>
+          <li><a href="">Metagame</a></li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <ul>
+          <li><a href="">Iniciar sesion</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <p
-          class="
-            text-base
-            leading-6
-            text-indigo-600
-            font-semibold
-            tracking-wide
-            uppercase
-          "
-        >
-          Snowpack
-        </p>
-        <h3
-          class="
-            mt-2
-            text-3xl
-            leading-8
-            font-extrabold
-            tracking-tight
-            text-gray-900
-            sm:text-4xl sm:leading-10
-          "
-        >
-          👻Pokemon App🐱‍🐉
-        </h3>
         <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
-          An app in wich you can find all pokemon around the world!
+          Working on a function in wich you can select the region you want!
         </p>
         <div id="container" class="mt-4 container"></div>
       </div>
     </div>
+    <footer>All rights reserved | Miguel Turpo 2022</footer>
 
     <script type="module" src="https://skailand7.github.io/pokemon-app/_dist_/index.js"></script>
   </body>
